@@ -12,7 +12,7 @@ body {
     color: #333;
 }
 
-/* Notebook Container */
+/* Notebook Container
 .notebook-page-container {
     position: relative;
     width: 800px;
@@ -21,7 +21,7 @@ body {
     margin: 20px;
     overflow: hidden; /* Ensures pages are clipped nicely */
 }
-
+ */
 /* Red Binder Strip on the left */
 .binder-strip {
     position: absolute;
