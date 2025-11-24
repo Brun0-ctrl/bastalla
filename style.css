@@ -22,7 +22,7 @@ body {
     overflow: hidden; /* Ensures pages are clipped nicely */
 }
  */
-/* Red Binder Strip on the left */
+/* Red Binder Strip on the left
 .binder-strip {
     position: absolute;
     left: 50%; /* Center the entire notebook */
@@ -35,7 +35,7 @@ body {
     border-radius: 5px 0 0 5px;
     z-index: 10; /* Above the pages */
 }
-
+ */
 /* Individual Page Styling - Notebook Look */
 .page {
     position: absolute;
