@@ -1,27 +1,66 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Bruno's final project!</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bruno's Web - Notebook Style</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
+    <div class="binder-strip"></div>
 
+    <div class="notebook-page-container">
+        
+        <div class="page active" id="page-1">
+            <div class="page-content">
+                <h1>Welcome to Bruno's Web!</h1>
+                <p class="subtitle">Click the "Next Page" arrow to explore the notebook.</p>
+            </div>
+        </div>
 
+        <div class="page" id="page-2">
+            <div class="page-content">
+                <h2>✍️ Biography</h2>
+                <hr>
+                <p>Bruno is a highly dedicated individual known for their work as a **growing musician and talented artist**. Their professional background includes successfully executing numerous art commissions and providing guidance to others in developing their unique artistic styles. In their recent academic pursuits, Bruno achieved significant **honors**, reflecting their commitment and dedication. This success culminated in their acceptance to college, where they are currently pursuing their education while actively seeking part-time employment to manage personal finances and maintain a productive schedule. Following graduation, Bruno aims to establish a dual career path focused on working with **growing companies in the entertainment industry**, specifically those specializing in **animation, art, and design**. Additionally, they plan to launch a personal commission service with a **competitive pricing model** to broaden consumer access to their artistic services.</p>
 
+                <br>
 
-<h1>Welcome to my website!</h1>
-<p>My name is Bruno! I am an Artist, Musician, and a comic maniac! I came to this college to freshen up for once and to have a better degree for my future career. This Portfolio is created to share my projects and how i mamaged to have creative thinking!</p>
+                <h2>✨ Future Objectives</h2>
+                <hr>
+                <ul>
+                    <li>Establishment as a Professional Commissioned Artist.</li>
+                    <li>(Additional objectives coming soon!)</li>
+                </ul>
+            </div>
+        </div>
 
+        <div class="page" id="page-3">
+            <div class="page-content">
+                <h2>🔗 My Projects</h2>
+                <hr>
+                <div class="project-card">
+                    <h3>X Digital Portfolio</h3>
+                    <p class="description">This account is used for showing off my artwork and announcing commissions.</p>
+                    <a href="https://www.x.com/Br_n0Likes" target="_blank" class="project-link">View Portfolio</a>
+                </div>
+            </div>
+        </div>
 
+        <div class="navigation-controls">
+            <button id="prev-btn" class="nav-btn hidden">← Previous Page</button>
+            <button id="next-btn" class="nav-btn">Next Page →</button>
+        </div>
 
+    </div>
 
+    <footer id="copyright-footer">
+        Copyright &copy; 2025 Bruno Incorporated. All Rights Reserved.
+    </footer>
 
-
-
-
-
-
-
+    <script src="script.js"></script>
 </body>
 </html>
 
